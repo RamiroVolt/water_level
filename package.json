@@ -1,0 +1,26 @@
+{
+  "name": "water_level",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamiroVolt/water_level.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RamiroVolt/water_level/issues"
+  },
+  "homepage": "https://github.com/RamiroVolt/water_level#readme",
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}

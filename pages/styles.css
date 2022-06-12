@@ -1,0 +1,56 @@
+:root{
+  --tank_bot: 30vh
+}
+
+.container{
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(#ca816f,#edbff3);
+
+}
+
+.volume {
+  position:absolute;
+  top: 20vh;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.water{
+  position:absolute;
+  bottom: var(--tank_bot);
+  width: 25vh;
+  height: 10vh;
+  background: linear-gradient(rgb(42, 77, 255),rgb(45, 45, 158));
+  border-radius: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1vh solid #fff;
+  border-top: 1vh transparent;
+
+}
+
+.cup {
+  position:absolute;
+  bottom: var(--tank_bot);
+  width: 25vh;
+  height: 35vh;
+  border: 1vh solid #fff;
+  border-top: 0px transparent;
+  border-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.button {
+  height: 10vh;
+  width: 30vh;
+
+}
